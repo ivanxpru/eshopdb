@@ -1,0 +1,37 @@
+{
+  "name": "eshopdb",
+  "version": "1.0.0",
+  "description": "unofficial Nintendo eShop API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanxpru/eshopdb.git"
+  },
+  "keywords": [
+    "eshop",
+    "nintendo",
+    "api"
+  ],
+  "author": "ivanxpru",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ivanxpru/eshopdb/issues"
+  },
+  "homepage": "https://github.com/ivanxpru/eshopdb#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "xml2js": "^0.4.23"
+  }
+}
